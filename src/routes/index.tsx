@@ -1,4 +1,4 @@
-import { Typography } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/")({
@@ -7,8 +7,13 @@ export const Route = createFileRoute("/")({
 
 function RouteComponent() {
 	return (
-		<Typography variant="h1" component={"h1"}>
-			Hello "/"!
-		</Typography>
+		<Stack spacing={2} alignItems="center" justifyContent="center" mt={4}>
+			<Typography variant="h1" component={"h1"}>
+				Welcome to Sebastian Pietschner's soon-to-be portfolio!
+			</Typography>
+			<Typography variant="h2" component={"h2"}>
+				Under construction 🚧
+			</Typography>
+		</Stack>
 	);
 }
