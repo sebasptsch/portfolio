@@ -9,10 +9,10 @@ function RouteComponent() {
 	return (
 		<Container>
 			<Stack spacing={2} alignItems="center" justifyContent="center" mt={4}>
-				<Typography variant="h1" component={"h1"} textAlign={"center"}>
+				<Typography variant="h3" component={"h3"} textAlign={"center"}>
 					Welcome to Sebastian Pietschner's soon-to-be portfolio!
 				</Typography>
-				<Typography variant="h2" component={"h2"} textAlign={"center"}>
+				<Typography variant="h4" component={"h4"} textAlign={"center"}>
 					Under construction 🚧
 				</Typography>
 			</Stack>
